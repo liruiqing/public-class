@@ -1,21 +1,21 @@
 function showBrowserInfo(){
     var s = "";
-    s += " ç½‘é¡µå¯è§åŒºåŸŸå®½ï¼š"+ document.body.clientWidth+'\n';
-    s += " ç½‘é¡µå¯è§åŒºåŸŸé«˜ï¼š"+ document.body.clientHeight+'\n';
-    s += " ç½‘é¡µå¯è§åŒºåŸŸå®½ï¼š"+ document.body.offsetWidth +" (åŒ…æ‹¬è¾¹çº¿å’Œæ»šåŠ¨æ¡çš„å®½)"+'\n';
-    s += " ç½‘é¡µå¯è§åŒºåŸŸé«˜ï¼š"+ document.body.offsetHeight +" (åŒ…æ‹¬è¾¹çº¿çš„å®½)"+'\n';
-    s += " ç½‘é¡µæ­£æ–‡å…¨æ–‡å®½ï¼š"+ document.body.scrollWidth+'\n';
-    s += " ç½‘é¡µæ­£æ–‡å…¨æ–‡é«˜ï¼š"+ document.body.scrollHeight+'\n';
-    s += " ç½‘é¡µè¢«å·å»çš„é«˜ï¼š"+ document.body.scrollTop+'\n';
-    s += " ç½‘é¡µè¢«å·å»çš„å·¦ï¼š"+ document.body.scrollLeft+'\n';
-    s += " ç½‘é¡µæ­£æ–‡éƒ¨åˆ†ä¸Šï¼š"+ window.screenTop+'\n';
-    s += " ç½‘é¡µæ­£æ–‡éƒ¨åˆ†å·¦ï¼š"+ window.screenLeft+'\n';
-    s += " å±å¹•åˆ†è¾¨ç‡çš„é«˜ï¼š"+ window.screen.height+'\n';
-    s += " å±å¹•åˆ†è¾¨ç‡çš„å®½ï¼š"+ window.screen.width+'\n';
-    s += " å±å¹•å¯ç”¨å·¥ä½œåŒºé«˜åº¦ï¼š"+ window.screen.availHeight+'\n';
-    s += " å±å¹•å¯ç”¨å·¥ä½œåŒºå®½åº¦ï¼š"+ window.screen.availWidth+'\n';
-    s += " ä½ çš„å±å¹•è®¾ç½®æ˜¯ "+ window.screen.colorDepth +" ä½å½©è‰²"+'\n';
-    s += " ä½ çš„å±å¹•è®¾ç½® "+ window.screen.deviceXDPI +" åƒç´ /è‹±å¯¸"+'\n';
+    s += " ÍøÒ³¿É¼ûÇøÓò¿í£º"+ document.body.clientWidth+'\n';
+    s += " ÍøÒ³¿É¼ûÇøÓò¸ß£º"+ document.body.clientHeight+'\n';
+    s += " ÍøÒ³¿É¼ûÇøÓò¿í£º"+ document.body.offsetWidth +" (°üÀ¨±ßÏßºÍ¹ö¶¯ÌõµÄ¿í)"+'\n';
+    s += " ÍøÒ³¿É¼ûÇøÓò¸ß£º"+ document.body.offsetHeight +" (°üÀ¨±ßÏßµÄ¿í)"+'\n';
+    s += " ÍøÒ³ÕıÎÄÈ«ÎÄ¿í£º"+ document.body.scrollWidth+'\n';
+    s += " ÍøÒ³ÕıÎÄÈ«ÎÄ¸ß£º"+ document.body.scrollHeight+'\n';
+    s += " ÍøÒ³±»¾íÈ¥µÄ¸ß£º"+ document.body.scrollTop+'\n';
+    s += " ÍøÒ³±»¾íÈ¥µÄ×ó£º"+ document.body.scrollLeft+'\n';
+    s += " ÍøÒ³ÕıÎÄ²¿·ÖÉÏ£º"+ window.screenTop+'\n';
+    s += " ÍøÒ³ÕıÎÄ²¿·Ö×ó£º"+ window.screenLeft+'\n';
+    s += " ÆÁÄ»·Ö±æÂÊµÄ¸ß£º"+ window.screen.height+'\n';
+    s += " ÆÁÄ»·Ö±æÂÊµÄ¿í£º"+ window.screen.width+'\n';
+    s += " ÆÁÄ»¿ÉÓÃ¹¤×÷Çø¸ß¶È£º"+ window.screen.availHeight+'\n';
+    s += " ÆÁÄ»¿ÉÓÃ¹¤×÷Çø¿í¶È£º"+ window.screen.availWidth+'\n';
+    s += " ÄãµÄÆÁÄ»ÉèÖÃÊÇ "+ window.screen.colorDepth +" Î»²ÊÉ«"+'\n';
+    s += " ÄãµÄÆÁÄ»ÉèÖÃ "+ window.screen.deviceXDPI +" ÏñËØ/Ó¢´ç"+'\n';
     console.log(s);
 }
 
