@@ -18,3 +18,21 @@ function showInfo(){
     s += " ÄãµÄÆÁÄ»ÉèÖÃ "+ window.screen.deviceXDPI +" ÏñËØ/Ó¢´ç"+'\n';
     console.log(s);
 }
+
+function isIE(){
+    var isIE=!!window.ActiveXObject;
+    var isIE6=isIE&&!window.XMLHttpRequest;
+    var isIE8=isIE&&!!document.documentMode;
+    var isIE7=isIE&&!isIE6&&!isIE8;
+    if (isIE){
+        return true;
+        if (isIE6){
+
+        }else if (isIE8){
+
+        }else if (isIE7){
+
+        }
+    }
+    return false;
+}
