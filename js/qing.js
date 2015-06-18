@@ -36,3 +36,11 @@ function isIE(){
     }
     return false;
 }
+// htmlToText 和 textToHtml  HTML与Text数据转换
+function htmlToText(html) {
+    return html.replace(/\<br(?: \/)?\>/g, '\n').replace(/&amp;/g, '&').replace(/&lt;/g, '<').replace(/&gt;/g, '>');
+}
+
+function textToHtml(text) {
+    return text.replace(/&/g, '&amp;').replace(/\</g, '&lt;').replace(/\>/g, '&gt;').replace(/\n/g, '<br>');
+}
